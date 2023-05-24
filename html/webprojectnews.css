@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #132945;
+    background-color: whitesmoke;
     font-family: Arial, sans-serif;
   }
   
@@ -22,7 +22,7 @@ body {
   
   .picture {
     flex-grow: 1;
-    margin: 50px;
+    margin: 10px;
   }
   
   .description {
@@ -33,6 +33,7 @@ body {
    
     background-size: cover;
     width: fit-content;
+    width: 450px;
     height: 300px;
     border: 1px solid #000;
     border-radius: 10px;
@@ -43,6 +44,8 @@ body {
     background-image: url("img/ATM-Machine.jpg");
     background-size: cover;
     width: fit-content;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 300px;
   }
   
@@ -60,7 +63,8 @@ body {
   .picture3 {
     background-size: cover;
     width: fit-content;
-    height: 300px;
+    height: 300px;    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid #000;
     border-radius: 10px;
     opacity: 0.8;
@@ -87,19 +91,19 @@ body {
   article div h2{
     text-align: center;
     margin-bottom: 10px;
-    color: aqua;
+    color: #212121;
   }
   article div p{
     text-align: justify; 
-    color: aliceblue;
+    color: #212121;
   }
   article div ul li{
     margin-bottom: 12px;
     padding-left: 11px;
-    color: azure;
+    color: #212121;
   }
   article div ul li.sans{
     list-style: none;
     font-weight: bold;
-    color: rgb(44, 148, 234);
+    color: #212121;
   }
