@@ -10,7 +10,9 @@ body, html {
     margin: 15px; 
     
 }
-
+img{
+    border-radius: 15px;
+}
 .card>h3 {
     margin: 0;
     padding: 0;
@@ -115,6 +117,7 @@ section>h1 {
 }
 
 .card>img {
+    border-radius: 15px;
     height: 200px;
     object-fit: cover; 
     --c: black; /* the border color */
