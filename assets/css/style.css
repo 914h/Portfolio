@@ -43,6 +43,7 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: #fff;
+    background-image: url(../images/);
     font-size: 14px;
     color: #848484;
     width: 100%;
@@ -227,7 +228,7 @@ h4 {
 }
 
 p {
-    line-height: 1.375rem;
+    line-height: 2rem;
     margin: 0 0 15px;
 }
 p:last-child {
@@ -294,9 +295,9 @@ ul {
 
 .separator {
     height: 1px;
-    width: 60px;
+    width: 265px;
     margin: 10px 0;
-    background-color: #333;
+    background-color: white;
 }
 .whiseparator {
     height: 2px;
@@ -304,7 +305,11 @@ ul {
     margin: 14px auto 10px auto;
     background: #ffffff;
 }
-
+.desc{
+    font-size: 20px;
+    padding: ;
+    
+}
 /*section:nth-of-type(odd) {
     background-color: #F9F9F9;
 }*/
@@ -527,11 +532,12 @@ nav ul li {
 ===============================================================*/
 
 .home {
-    background: url(../images/homebg.png) no-repeat top center #141315;
+    background: url(../images/homebg.jpg) no-repeat top center #141315;
     background-size: cover;
     position: relative;
     padding-top: 80px;
-
+    padding-bottom: 80px;
+    height: 718px;
 }
 
 .main_home {
@@ -539,9 +545,11 @@ nav ul li {
     position: relative;
 }
 .main_home h1{
-    width:36%;
-    margin-left: 40%;
-    text-align: left;
+    width:46%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
 }
 .main_home p{
     width:45%;
@@ -662,6 +670,10 @@ Tobias section
 }
 .main_service_area .head_title h2{
     line-height: 6rem;
+
+}
+h2{
+    color: white;
 }
 .main_service_area{
     overflow: hidden;
