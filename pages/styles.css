@@ -6,4 +6,6 @@ iframe{
 .imgg{
     border-radius: 15px;
 
+}*{
+    scroll-behavior: smooth;
 }
